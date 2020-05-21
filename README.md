@@ -14,8 +14,8 @@
     pip install selenium
     pip install python-csv
     pip install webdriver-manager
-    pip install chromedriver_installer #for google chrome
-    pip install geckodriver-autoinstaller #for firefox
+    pip install chromedriver_installer
+    pip install geckodriver-autoinstaller
 
 ### How to run the script?
     step-1:git clone or download the zip of this repo then cd Mass-whatsapp-msg-sender
