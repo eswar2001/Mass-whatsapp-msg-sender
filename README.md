@@ -1,4 +1,5 @@
 # Mass-whatsapp-msg-sender
+ [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://github.com/eswar2001/Mass-whatsapp-msg-sender)  
  
  :smile: [Download the repo](https://github.com/eswar2001/Mass-whatsapp-msg-sender/archive/master.zip) :smile:
  
@@ -13,9 +14,29 @@
     python -m pip install --upgrade pip
     pip install selenium
     pip install python-csv
+   
+### Platform: Windows
+ChromeDriver used: If this versions becomes outdated or gives problem
+download the latest version from <a href ="http://chromedriver.chromium.org/downloads"> Download Link </a>
+                                      (or)
+FirefoxDriver used: [Geckodriver for firefox](https://github.com/mozilla/geckodriver/releases)
+                                       
+After downloading the driver you will have to add the location of those exe files in path.Chrome is prefered if your using firefox then
+modify the code in whatsapp.py file. by default it is using chrome drivers just change the below code.
+
+![chrome](https://github.com/eswar2001/Mass-whatsapp-msg-sender/blob/master/images/code.jpg)
+
+>driver = webdriver.Chrome()
+>
+>to
+>
+>driver = webdriver.Firefox()
+
+### Platform: Linux
     pip install webdriver-manager
     pip install chromedriver_installer
     pip install geckodriver-autoinstaller
+
 
 ### How to run the script?
     step-1:git clone or download the zip of this repo then cd Mass-whatsapp-msg-sender
@@ -29,6 +50,14 @@
     step-9:now time to relax  
  :relieved:
     
+
+### NOTE: For contacts:
+Do enter your country code then contact number.
+>Use: 919999999999
+>
+>Don't Use: +919999999999
+
+
 ![how to put numbers in the csv file](https://github.com/eswar2001/Mass-whatsapp-msg-sender/blob/master/images/numberslist.jpg)
                                                      
                                                      
