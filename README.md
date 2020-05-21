@@ -25,7 +25,8 @@
     step-6:each number should be in seperate line without comas or colon's
     step-7:then run python whatsapp.py
     step-8:as soon as the browser loads the whatsapp desktop webpage scan the qr with your mobile
-    step-9:now time to relax :relieved:
+    step-9:now time to relax  
+ :relieved:
     
 ![how to put numbers in the csv file](https://github.com/eswar2001/Mass-whatsapp-msg-sender/blob/master/images/numberslist.jpg)
                                                      
