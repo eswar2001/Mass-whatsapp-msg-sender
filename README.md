@@ -7,7 +7,7 @@
   * [Latest version of chrome](https://www.google.com/chrome/)
   * [Geckodriver for firefox](https://github.com/mozilla/geckodriver/releases)
   * [ChromeDriver for chrome and it is version specific](https://chromedriver.chromium.org/)
-  * [To know your chrome version](chrome://settings/help)
+  * To know your chrome version got to settings/help 
 
 ### Code to be executed/Procedure
     python -m pip install --upgrade pip
