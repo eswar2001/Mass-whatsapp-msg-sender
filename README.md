@@ -27,4 +27,9 @@
     step-8:as soon as the browser loads the whatsapp desktop webpage scan the qr with your mobile
     step-9:now time to relax :relieved:
     
- :star: the repo :+1: 
+![how to put numbers in the csv file](https://github.com/eswar2001/Mass-whatsapp-msg-sender/blob/master/images/numberslist.jpg)
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     :star: the repo :+1: 
