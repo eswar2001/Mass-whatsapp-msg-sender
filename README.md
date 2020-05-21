@@ -9,8 +9,9 @@
   * [Geckodriver for firefox](https://github.com/mozilla/geckodriver/releases)
   * [ChromeDriver for chrome and it is version specific](https://chromedriver.chromium.org/)
   * To know your chrome version got to settings/help 
+  * [as on 21-05-2020 the latest exe files are here](https://github.com/eswar2001/Mass-whatsapp-msg-sender/tree/master/resources/)
 
-### Code to be executed/Procedure
+### Code to be executed irrespective of platform
     python -m pip install --upgrade pip
     pip install selenium
     pip install python-csv
@@ -45,18 +46,19 @@ modify the code in whatsapp.py file. by default it is using chrome drivers just 
     step-4:Type the message in the 'message.txt' file
     step-5:Type the phone numbers in the 'numbers.csv' each number should start with country code without '+'
     step-6:each number should be in seperate line without comas or colon's
-    step-7:then run python whatsapp.py
-    step-8:as soon as the browser loads the whatsapp desktop webpage scan the qr with your mobile
+    step-7:then run the below command in the terminal or cmd.
+              python whatsapp.py
+    step-8:as soon as the browser loads the whatsapp desktop webpage, scan the qr with your mobile
     step-9:now time to relax  
  :relieved:
-    
-
+        
 ### NOTE: For contacts:
 Do enter your country code then contact number.
 >Use: 919999999999
 >
 >Don't Use: +919999999999
 
+<a href="https://www.wikihow.tech/Scan-a-QR-Code-on-WhatsApp" target="__blank"> For scanning qr to get whatsapp web using ios or android devices</a>
 
 ![how to put numbers in the csv file](https://github.com/eswar2001/Mass-whatsapp-msg-sender/blob/master/images/numberslist.jpg)
                                                      
