@@ -7,6 +7,11 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 import socket
 import csv
+try:
+    import autoit
+except ModuleNotFoundError:
+    pass
+import os
 
 msg = ""
 with open('message.txt') as f:
@@ -15,7 +20,7 @@ with open('message.txt') as f:
 
 no_of_message = 1
 recipetents_list = []
-
+doc_filename = 'a.txt'
 
 file_name = "numbers.csv"
 try:
@@ -48,6 +53,33 @@ driver.get("http://web.whatsapp.com")
 sleep(10)
 
 
+def send_files():
+    clipButton = driver.find_element_by_xpath(
+        '//*[@id="main"]/header/div[3]/div/div[2]/div/span')
+    clipButton.click()
+    sleep(1)
+    docButton = driver.find_element_by_xpath(
+        '//*[@id="main"]/header/div[3]/div/div[2]/span/div/div/ul/li[3]/button')
+    docButton.click()
+    sleep(1)
+
+    docPath = os.getcwd() + "\\Documents\\" + doc_filename
+
+    autoit.control_focus("Open", "Edit1")
+    autoit.control_set_text("Open", "Edit1", (docPath))
+    autoit.control_click("Open", "Button1")
+    sleep(3)
+    whatsapp_send_button = driver.find_element_by_xpath(
+        # '//*[@id="app"]/div/div/div[2]/div[2]/span/div/span/div/div/div[2]/span[2]/div/div/span'
+        # '#app > div > div > div.YD4Yw > div._1-iDe.Wu52Z > span > div > span > div > div > div._2sNbV._3ySAH > span > div > div'
+        '/html/body/div[1]/div/div/div[2]/div[2]/span/div/span/div/div/div[2]/span/div/div')
+    whatsapp_send_button.click()
+    if(element_presence(By.XPATH, '//*[@id="main"]/div[3]/div/div/div[2]/div[8]/div/div[1]/div/a/div/div[3]/span', 30)):
+        continue
+    else:
+        sleep(10)
+
+
 def send_whatsapp_msg(phone_no, text):
 
     driver.get(
@@ -72,6 +104,8 @@ def send_whatsapp_msg(phone_no, text):
         for x in range(no_of_message):
             txt_box.send_keys(text)
             txt_box.send_keys("\n")
+            if(doc_filename != 'NULL'):
+                send_files()
 
     except Exception as e:
         print("Invailid phone no :" + str(phone_no))
