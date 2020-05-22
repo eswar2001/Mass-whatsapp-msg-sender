@@ -86,4 +86,8 @@ Do enter your country code then contact number.
 
 ![how to put numbers in the csv file](https://github.com/eswar2001/Mass-whatsapp-msg-sender/blob/master/images/numberslist.jpg)
 
-#### :star: the repo :+1:
+ :star: the repo
+
+
+
+![Afraid of bots](https://media.giphy.com/media/urvsFBDfR6N32/giphy.gif)
