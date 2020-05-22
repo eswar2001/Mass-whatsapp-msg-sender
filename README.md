@@ -5,13 +5,14 @@
 :smile: [Download the repo](https://github.com/eswar2001/Mass-whatsapp-msg-sender/archive/master.zip) :smile:
 
 ### Requirements
-
-- [Latest version of Python](https://www.python.org/ftp/python/3.8.3/python-3.8.3.exe)
-- [Latest version of chrome](https://www.google.com/chrome/)
-- [Latest version of Pyautoit](https://github.com/jacexh/pyautoit)
-- [Geckodriver for firefox](https://github.com/mozilla/geckodriver/releases)
-- [ChromeDriver for chrome and it is version specific](https://chromedriver.chromium.org/)
-- To know your chrome version got to settings/help
+    >Chrome/Firefox
+    >chromedriver/Geckodriver
+    >Python 3.8
+    >pip3
+    >PyAutoIt
+    >Os-sys
+    >selenium
+### [How to install python? click here](https://realpython.com/installing-python/) 
 
 ### Code to be executed/Procedure
 
@@ -85,4 +86,8 @@ Do enter your country code then contact number.
 
 ![how to put numbers in the csv file](https://github.com/eswar2001/Mass-whatsapp-msg-sender/blob/master/images/numberslist.jpg)
 
-#### :star: the repo :+1:
+ :star: the repo
+
+
+
+![Afraid of bots](https://media.giphy.com/media/urvsFBDfR6N32/giphy.gif)
