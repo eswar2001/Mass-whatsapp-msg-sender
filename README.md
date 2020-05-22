@@ -69,8 +69,10 @@ modify the code in whatsapp.py file. by default it is using chrome drivers just 
 
 ### NOTE: For Sending Files:
 
-Paste your document in the Documents Folder in the directory.Then go to whatsapp.py file and paste the document name along with file extension 
-in the variable $doc_filename.
+Paste your document in the Documents Folder in the directory.Then go to whatsapp.py file and paste the document name along with file extension
+in the variable doc_filename.
+By default it is set to NULL.
+![how to put file name](https://github.com/eswar2001/Mass-whatsapp-msg-sender/blob/master/images/file.jpg)
 
 ### NOTE: For contacts:
 
