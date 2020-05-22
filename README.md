@@ -12,6 +12,7 @@
     >PyAutoIt
     >Os-sys
     >selenium
+### [How to install python? click here](https://realpython.com/installing-python/) 
 
 ### Code to be executed/Procedure
 
