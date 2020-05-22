@@ -67,6 +67,11 @@ modify the code in whatsapp.py file. by default it is using chrome drivers just 
 
 :relieved:
 
+### NOTE: For Sending Files:
+
+Paste your document in the Documents Folder in the directory.Then go to whatsapp.py file and paste the document name along with file extension 
+in the variable $doc_filename.
+
 ### NOTE: For contacts:
 
 Do enter your country code then contact number.

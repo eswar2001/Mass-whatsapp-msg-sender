@@ -20,7 +20,8 @@ with open('message.txt') as f:
 
 no_of_message = 1
 recipetents_list = []
-doc_filename = 'a.txt'
+
+doc_filename = 'NULL'
 
 file_name = "numbers.csv"
 try:
@@ -74,10 +75,8 @@ def send_files():
         # '#app > div > div > div.YD4Yw > div._1-iDe.Wu52Z > span > div > span > div > div > div._2sNbV._3ySAH > span > div > div'
         '/html/body/div[1]/div/div/div[2]/div[2]/span/div/span/div/div/div[2]/span/div/div')
     whatsapp_send_button.click()
-    if(element_presence(By.XPATH, '//*[@id="main"]/div[3]/div/div/div[2]/div[8]/div/div[1]/div/a/div/div[3]/span', 30)):
-        continue
-    else:
-        sleep(10)
+    element_presence(
+        By.XPATH, '//*[@id="main"]/div[3]/div/div/div[2]/div[8]/div/div[1]/div/a/div/div[3]/span', 30)
 
 
 def send_whatsapp_msg(phone_no, text):
